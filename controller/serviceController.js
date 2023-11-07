@@ -80,7 +80,7 @@ const updateServiceHeaderBySlug = async (req, res) => {
           title: title,
           description: description,
           image: image,
-          // slug: slugify(title),
+           slug: slugify(title),
         },
       },
       { new: true }
